@@ -16,10 +16,10 @@ public class ExemploClasseFiles {
 
 	public static void main(String[] args) throws IOException {
 
-		/*
-		 * //Files.exists Path path = Paths.get("C:\\Users\\marti\\Downloads"); boolean
-		 * pathExists = Files.exists(path); System.out.println(pathExists);
-		 */
+		// Files.exists
+		Path path = Paths.get("C:\\Users\\marti\\Downloads");
+		boolean pathExists = Files.exists(path);
+		System.out.println(pathExists);
 
 //		// Files.createDirectory
 //		Path path = Paths.get("data");
@@ -58,7 +58,6 @@ public class ExemploClasseFiles {
 //			e.printStackTrace();
 //		}
 
-		
 //		//Files.copy - Sobrescrevendo
 //		Path origemPath = Paths.get("data/arquivo1.txt");
 //		Path destinoPath = Paths.get("data/arquivo2.txt");
@@ -69,8 +68,7 @@ public class ExemploClasseFiles {
 //			e.printStackTrace();
 //		}
 
-		
-		//Files.move
+		// Files.move
 //		Path origemPath = Paths.get("data/arquivo1.txt");
 //		Path destinoPath = Paths.get("arquivo.txt");
 //		try {
@@ -79,8 +77,7 @@ public class ExemploClasseFiles {
 //			// Se alguma coisa der errada
 //			e.printStackTrace();
 //		}
-		
-		
+
 //		//Files.delete
 //		Path path  = Paths.get("arquivo.txt");
 //		try {
@@ -89,8 +86,7 @@ public class ExemploClasseFiles {
 //			//Se alguma coisa der errada
 //			e.printStackTrace();
 //		}
-		
-		
+
 //		//Files.find
 //		Path start = Paths.get("C:\\Users\\Usuário\\eclipse-workspace");
 //		int maxDepth = 5;
@@ -100,12 +96,10 @@ public class ExemploClasseFiles {
 //			(path, attr) -> String.valueOf(path).endsWith(".java"));
 //		stream.sorted().forEach(System.out::println); 
 
-
 //		//Files.list
 //		Path path  = Paths.get("C:\\\\Users\\\\Usuário\\\\eclipse-workspace");
 //		Stream<Path> stream = Files.list(path);
 //		stream.sorted().forEach(System.out::println);
-
 
 	}
 
